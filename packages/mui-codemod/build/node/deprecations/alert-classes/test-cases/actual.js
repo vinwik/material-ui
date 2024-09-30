@@ -1,0 +1,27 @@
+"use strict";
+
+var _Alert = require("@mui/material/Alert");
+'&.MuiAlert-standardSuccess';
+'&.MuiAlert-standardInfo';
+'&.MuiAlert-standardWarning';
+'&.MuiAlert-standardError';
+'&.MuiAlert-outlinedSuccess';
+'&.MuiAlert-outlinedInfo';
+'&.MuiAlert-outlinedWarning';
+'&.MuiAlert-outlinedError';
+'&.MuiAlert-filledSuccess';
+'&.MuiAlert-filledInfo';
+'&.MuiAlert-filledWarning';
+'&.MuiAlert-filledError';
+`&.${_Alert.alertClasses.standardSuccess}`;
+`&.${_Alert.alertClasses.standardInfo}`;
+`&.${_Alert.alertClasses.standardWarning}`;
+`&.${_Alert.alertClasses.standardError}`;
+`&.${_Alert.alertClasses.outlinedSuccess}`;
+`&.${_Alert.alertClasses.outlinedInfo}`;
+`&.${_Alert.alertClasses.outlinedWarning}`;
+`&.${_Alert.alertClasses.outlinedError}`;
+`&.${_Alert.alertClasses.filledSuccess}`;
+`&.${_Alert.alertClasses.filledInfo}`;
+`&.${_Alert.alertClasses.filledWarning}`;
+`&.${_Alert.alertClasses.filledError}`;

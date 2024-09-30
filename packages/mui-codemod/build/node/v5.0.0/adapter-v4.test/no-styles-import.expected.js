@@ -1,0 +1,10 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.muiTheme2 = exports.muiTheme = void 0;
+var _otherPath = require("../other-path");
+var _styles = require("@material-ui/core/styles");
+const muiTheme = exports.muiTheme = createMuiTheme();
+const muiTheme2 = exports.muiTheme2 = (0, _otherPath.createTheme)((0, _styles.adaptV4Theme)(options));
