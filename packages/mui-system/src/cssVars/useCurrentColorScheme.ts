@@ -101,7 +101,7 @@ function initializeValue(key: string, defaultValue: string) {
   }
   let value;
   try {
-    value = localStorage.getItem(key) || undefined;
+    value = localStorage.getItem(key) || 'light' || undefined;
     if (!value) {
       // the first time that user enters the site.
       localStorage.setItem(key, defaultValue);
