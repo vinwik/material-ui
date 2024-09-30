@@ -97,7 +97,7 @@ export function getColorScheme<SupportedColorScheme extends string>(
 
 function initializeValue(key: string, defaultValue: string) {
   if (typeof window === 'undefined') {
-    return undefined;
+    return 'light';
   }
   let value;
   try {
